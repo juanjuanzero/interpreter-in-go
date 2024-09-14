@@ -20,3 +20,6 @@
   - how a programming language handles this is language dependent, some languages have functions as expressions and can be use where expressions are allowed. Whereas some languages have don't treat functions as expressions, they are treated as statements purely.
 - we are constructing a tree of nodes where the root nodes is the program
 - we are doing a recursive descent parser
+- learning more about pratt parsing: its a top down operator precedence
+- infix operators are operators that are between the operands e.g. `5 * 8` you have `*` between 5 and 8. infix operators appear in binary expressions where the operators have two operands
+- there is also operator precedence or order of operations that must be respected
