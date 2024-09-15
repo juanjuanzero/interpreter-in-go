@@ -23,3 +23,10 @@
 - learning more about pratt parsing: its a top down operator precedence
 - infix operators are operators that are between the operands e.g. `5 * 8` you have `*` between 5 and 8. infix operators appear in binary expressions where the operators have two operands
 - there is also operator precedence or order of operations that must be respected
+- parsing terminologies:
+  - prefix operator: goes in front of the operand `--5` to decrement 5
+  - postfix operator: goes in after the operand `foobar++` increment foobar
+  - infix operator: sits between operands for binary operations. `5 * 8`
+  - operator precedence: the order of operations
+- preparing the ast:
+  - outputting strings so that we can easily test what we are building as we build it
