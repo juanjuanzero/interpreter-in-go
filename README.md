@@ -30,3 +30,5 @@
   - operator precedence: the order of operations
 - preparing the ast:
   - outputting strings so that we can easily test what we are building as we build it
+- pratt parsing:
+  - the main idea of the parser is the association of parsing functions with token types (pratt calls parsing functions semantic code)
